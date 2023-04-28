@@ -1,0 +1,281 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"re",
+				"requests"
+			],
+			[
+				"ex",
+				"ex_copy"
+			],
+			[
+				"po",
+				"pozdniakov"
+			],
+			[
+				"new",
+				"new_string"
+			],
+			[
+				"su",
+				"subject"
+			],
+			[
+				"auto",
+				"author"
+			],
+			[
+				"te",
+				"temp_str"
+			],
+			[
+				"con",
+				"contract"
+			],
+			[
+				"def",
+				"def\tFunction"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"conda: a",
+				"Conda: List Environments"
+			],
+			[
+				"conda",
+				"Conda: List Environments"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/pozdniakov/.zshrc",
+		"/home/pozdniakov/Desktop/py_project/stairway.py",
+		"/home/pozdniakov/Desktop/py_project/base.py",
+		"/home/pozdniakov/Desktop/py_project/location.py",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/pyconda-virtualenv.zsh-theme",
+		"/home/pozdniakov/Desktop/Anaconda.txt",
+		"/home/pozdniakov/Desktop/venv.txt",
+		"/home/pozdniakov/Downloads/nerd-fonts-2.3.3/font-patcher",
+		"/home/pozdniakov/.oh-my-zsh/themes/dst.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/bureau.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/clean.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/candy.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/pygmalion-virtualenv.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/powerlevel9k/functions/icons.zsh",
+		"/home/pozdniakov/Downloads/Ducula-master/ducula.zsh-theme",
+		"/home/pozdniakov/Downloads/Ducula-master/abbrevs.zsh",
+		"/home/pozdniakov/.oh-my-zsh/themes/eastwood.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/apple.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/macovsky-ruby.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/gentoo.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/kolo.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/powerlevel9k/functions/colors.zsh",
+		"/home/pozdniakov/.oh-my-zsh/themes/robbyrussell.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/pygmalion.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh.old/custom/themes/powerlevel10k/config/p10k-robbyrussell.zsh",
+		"/home/pozdniakov/.p10k.zsh",
+		"/home/pozdniakov/.oh-my-zsh/antigen.zsh",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/powerlevel9k/docker/antigen/Dockerfile",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/powerlevel9k/docker/antigen/install.zsh",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/powerlevel9k/functions/vcs.zsh",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/example (copy).zsh-theme",
+		"/home/pozdniakov/antigen.zsh",
+		"/home/pozdniakov/.oh-my-zsh/custom/themes/example.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/plugins/pyenv/pyenv.plugin.zsh",
+		"/home/pozdniakov/.zshrc.pre-oh-my-zsh",
+		"/bin/zsh5",
+		"/home/pozdniakov/.shell.pre-oh-my-zsh",
+		"/home/pozdniakov/Downloads/kostrukcii_upravleniya_potokom.slides.html",
+		"/home/pozdniakov/Desktop/myproject/string.py",
+		"/home/pozdniakov/Desktop/myproject/test2.py",
+		"/home/pozdniakov/Desktop/myproject/test.py",
+		"/home/pozdniakov/Downloads/assertEqual.py",
+		"/home/pozdniakov/Desktop/myproject/script.py",
+		"/home/pozdniakov/Downloads/test (2).py",
+		"/home/pozdniakov/.bashrc",
+		"/home/pozdniakov/.profile",
+		"/home/pozdniakov/Desktop/mybash.sh",
+		"/home/pozdniakov/Documents/.nvidia-settings-rc",
+		"/home/pozdniakov/anaconda3/pkgs/protego-0.1.16-py_0/info/test/tests/test_data/www.supercheats.com",
+		"/home/pozdniakov/Documents/cheatsheet.py",
+		"/home/pozdniakov/Desktop/Book/search_book.txt",
+		"/home/pozdniakov/Desktop/myproject/close_terminal.py",
+		"/home/pozdniakov/.oh-my-zsh/themes/alanpeabody.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/agnoster.zsh-theme",
+		"/home/pozdniakov/.oh-my-zsh/themes/afowler.zsh-theme",
+		"/home/pozdniakov/.config/sublime-text/Packages/User/Anaconda.sublime-settings",
+		"/home/pozdniakov/Desktop/data_analysis/My_Data.py"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Packages/User/Conda.sublime-build",
+	"project": "py_project.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
