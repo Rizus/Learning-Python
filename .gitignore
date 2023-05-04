@@ -29,6 +29,8 @@ MANIFEST
 my_py/
 .ipynb_checkpoints/
 *.ipynb
+*.sublime-project
+*.sublime-workspace
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
