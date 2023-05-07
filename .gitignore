@@ -5,9 +5,14 @@ __pycache__/
 
 # C extensions
 *.so
+*.ipynb
+*.sublime-project
+*.sublime-workspace
+*.egg
 
 # Distribution / packaging
 .Python
+.gitignore
 build/
 develop-eggs/
 dist/
@@ -23,14 +28,10 @@ wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
-*.egg
 MANIFEST
-.idea/
-my_py/
 .ipynb_checkpoints/
-*.ipynb
-*.sublime-project
-*.sublime-workspace
+requirements.txt
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -133,6 +134,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+my_py/
 
 # Spyder project settings
 .spyderproject
@@ -163,4 +165,4 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
