@@ -1,7 +1,20 @@
-# map, filter, lambda
-def squarify(a):
-    return a ** 2
+list_a = [1,2,3,4]
+
+list_b = [1,]
+
+list_c = []
+
+list_d = [[]]
+
+list_e = list()
 
 
-print(list(map(squarify, range(5))))
-# Output: [0, 1, 4, 9, 16]
+
+print(list_c)
+print(list_d)
+print(list_e)
+print(list_a * 0)
+print(list_b.pop())
+print([_ for i in list_b])
+print(list_a[-1:0])
+list_a.clear(); print(list_a) 
