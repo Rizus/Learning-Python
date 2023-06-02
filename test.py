@@ -1,23 +1,23 @@
+import os
 
+path = r"C:\Users\Admin\AppData\Local\Фото"
 
-class Car:
-    def __init__(self, color, mileage):
-        self.color = color
-        self.mileage = mileage
+i = 1
 
-    def drive(self, drive=0):
-        self.mileage = self.mileage + drive
+for file_name in os.listdir(path):
+    # Имя файла и его формат
+    base_name, ext = os.path.splitext(file_name)
 
-    def __str__(self):
-        return f"The {self.color} car has {self.mileage:,} miles."
+    # Нужны файлы определенного формата
+    if ext.lower() not in ['.jpg', '.jpeg']:
+        continue
 
+    # Полный путь к текущему файлу
+    abs_file_name = os.path.join(path, file_name)
 
-blue_car = Car("blue", 2000)
-red_car = Car("red", 3000)
-print(blue_car)
-print(red_car)
+    # Полный путь к текущему файлу с новым названием
+    new_abs_file_name = os.path.join(path, str(i) + ext)
 
-red_car.drive(100)
-print(red_car.mileage)
-print(blue_car)
-print(red_car)
+    os.rename(abs_file_name, new_abs_file_name)
+
+    i += 1
