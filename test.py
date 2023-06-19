@@ -1,23 +1,36 @@
 import os
+import re
 
-path = r"C:\Users\Admin\AppData\Local\Фото"
 
-i = 1
+def rename_file(file_path):
+    # Получаем базовое имя файла
+    file_name = os.path.basename(file_path)
 
-for file_name in os.listdir(path):
-    # Имя файла и его формат
-    base_name, ext = os.path.splitext(file_name)
+    # Удаляем все лишние символы из имени файла
+    new_file_name = re.sub(r'[^\w\s.-]', '', file_name)
 
-    # Нужны файлы определенного формата
-    if ext.lower() not in ['.jpg', '.jpeg']:
-        continue
+    # Получаем путь к директории файла
+    directory = os.path.dirname(file_path)
 
-    # Полный путь к текущему файлу
-    abs_file_name = os.path.join(path, file_name)
+    # Формируем новый путь для переименованного файла
+    new_file_path = os.path.join(directory, new_file_name)
 
-    # Полный путь к текущему файлу с новым названием
-    new_abs_file_name = os.path.join(path, str(i) + ext)
+    try:
+        # Переименовываем файл
+        os.rename(file_path, new_file_path)
+        print(f"Файл успешно переименован в {new_file_name}")
+    except OSError as e:
+        print(f"Ошибка при переименовании файла: {e}")
 
-    os.rename(abs_file_name, new_abs_file_name)
 
-    i += 1
+# Получаем текущий путь, где находится запущенный файл
+file_path = os.getcwd()
+rename_file(file_path)
+
+
+# Формируем полный путь к файлу
+file_name = "название_файла.txt"
+file_path = os.path.join(current_path, file_name)
+
+# Вызываем функцию для переименования файла
+rename_file(file_path)
