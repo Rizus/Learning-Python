@@ -1,7 +1,6 @@
 # main.py
-from mypackage.module1 import greet
-from mypackage.subpackage.module3 import people
+from helpers import math, string
 
-for person in people:
-    greet(person)
-    
+a = math.area(5, 8)
+s = string.shout(f"the area of a 5-by-8 rectangle is {a}")
+print(s)

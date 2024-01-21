@@ -1,4 +1,5 @@
 # module1.py
 
-def greet(name):
-    print(f"Hello, {name}!")
+def shout(text):
+    return text.upper()
+

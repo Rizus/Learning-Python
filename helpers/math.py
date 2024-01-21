@@ -1,4 +1,4 @@
 # module2.py
 
-def depart(name):
-    print(f"Goodbay, {name}!")
+def area(length, width):
+    return length * width
