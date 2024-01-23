@@ -34,7 +34,7 @@ print(currencies)
 print(currencies[2])
 # Output: Pound
 
-# сalling the missing index
+# calling the missing index
 try:
     print(currencies[5])
 except IndexError:
@@ -62,7 +62,7 @@ print(my_list[:])
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>#
 
-# Метод append(x) добавляет элемент в конец Cписка(List) > Эквивалентно a[len(a):] = [x]
+# Метод append(x) добавляет элемент в конец Списка(List) > Эквивалентно a[len(a):] = [x]
 my_list = [1, 2, 3, 4, 5, 6]
 my_list[len(my_list):] = [5]
 print(my_list)
