@@ -4,3 +4,10 @@ def add(x, y):
 
 def double(x):
     return x + x
+
+
+print("Hello world!")
+print(double(10))
+
+a = input("go: ")
+print(a)
