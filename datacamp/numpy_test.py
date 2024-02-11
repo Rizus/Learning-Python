@@ -30,5 +30,8 @@ my_array3 = np.array([1, 2, 3])
 print(my_array3[0])
 print(my_array3[0] + my_array3[2])
 
-arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+arr = np.array([[1, 2, 3, 4],
+                [5, 6, 7, 8]])
 print('2nd element on 1st row: ', arr[0, 1])
+
+print(arr[0:,0:])
