@@ -1,4 +1,4 @@
-# adder.py
+# adder.pyE globalizarea un lucru bun?
 def add(x, y):
     return x + y
 

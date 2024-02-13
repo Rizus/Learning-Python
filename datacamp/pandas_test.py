@@ -39,3 +39,24 @@ brics.index = cap
 # print(brics)
 print(brics.iloc[[1, 2, 3], [0, 1]])
 
+# Extract drives_right column as Series: dr
+dr = cars['drives_right']
+
+# Use dr to subset cars: sel
+sel = cars[dr]
+
+# Print sel
+print(sel)
+
+
+np.logical_and(brics['area'] > 8, brics['area'] < 10)
+brics[np.logical_and(brics['area'] > 8, brics['area'] < 10)]
+sel = cars[cars['drives_right']]
+
+
+for lab, row in dict.iterrows():
+    print(f'{lab} : {row['capital']}')
+    # - Creating Series on every iteration
+    dict.loc[lab, 'name_length'] = len(row['country'])
+
+dict['name_length'] = dict['country'].apply(len)

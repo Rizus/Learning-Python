@@ -48,6 +48,7 @@ print("Updated Dictionary: ", student_id)
 
 # Доступ к элементам из Словаря(Dictionary)
 student_id = {111: "Eric", 112: "Kyle", 113: "Butters"}
+print(student_id.keys())
 print(student_id[111])
 # Output: Eric
 print(student_id[113])
@@ -131,14 +132,34 @@ for i in squares:
 
 
 
+# DataCamp
+# Dictionary of dictionaries
+europe = { 'spain': { 'capital':'madrid', 'population':46.77 },
+           'france': { 'capital':'paris', 'population':66.03 },
+           'germany': { 'capital':'berlin', 'population':80.62 },
+           'norway': { 'capital':'oslo', 'population':5.084 } }
 
 
+# Print out the capital of France
+print(europe['france']['capital'])
+
+# Create sub-dictionary data
+data = {'capital':'rome', 'population':59.83}
+
+# Add data to europe under key 'italy'
+europe['italy'] = data
+
+# Print europe
+# print(europe)
 
 
+world = {
+    "Afganistan":30.55,
+    "Albania":2.77,
+    "Algeria":39.21
+}
 
-
-
-
-
+for key, value in world.items():
+    print(f'{key} -- {value}')
 
 
